@@ -13,6 +13,6 @@ namespace DepreciationDBApp.Domain.Interfaces
         Employee FindByDni(string dni);
         Employee FindByEmail(string email);
         IEnumerable<Employee> FindByLastnames(string lastnames);
-        IDbContextTransaction GetTransaction();
+        IDbContextTransaction GetTransaction(); //devolver todas las instrucciones en un solo paquete xd
     }
 }
